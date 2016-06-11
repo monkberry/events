@@ -35,6 +35,6 @@
     "babel-preset-es2015": "^6.1.18"
   },
   "peerDependencies": {
-    "monkberry": "*"
+    "monkberry": "4.x"
   }
 }
