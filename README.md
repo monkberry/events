@@ -11,10 +11,10 @@ npm install monkberry-events --save
 ## Usage
 
 ```js
-import monkberry from 'monkberry';
+import Monkberry from 'monkberry';
 import 'monkberry-events';
 
-var view = monkberry.render('template');
+var view = Monkberry.render(Template, document.body);
  
 view.on('click', '.button', (event) => ...);
 ```
